@@ -1,0 +1,263 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8" />
+  <title>Mimic</title>
+  
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+  <link rel="stylesheet" href="http://isotope.metafizzy.co/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+  <style>
+    #content {
+      margin: 0;
+    }
+    #container {
+      margin: 0 auto;
+    }
+  </style>
+  
+  <!-- scripts at bottom of page -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+  
+
+</head>
+<body class="demos">
+
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">MIMIK</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Right Nav Button Active</a></li>
+      <li class="has-dropdown">
+        <a href="#">Right Button with Dropdown</a>
+        <ul class="dropdown">
+          <li><a href="#">First link in dropdown</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Left Nav Button</a></li>
+    </ul>
+  </section>
+</nav>
+
+<header>
+<button class="md-trigger" data-modal="modal-12">Filters</button>
+</header>
+
+  <section id="content">
+
+
+
+  <div id="container" class="photos clearfix">
+    
+      <div class="photo test">
+        <img src="http://gehenna42.files.wordpress.com/2009/12/wayafarer.jpg" alt="Mimic Image" />
+      </div>
+
+      <div class="photo test2">
+        <img src="http://uncrate.com/p/2013/03/new-balance-revlite-574-xl.jpg" alt="Mimic Image" />
+      </div>
+
+      <div class="photo test2">
+        <img src="http://www.hermanmiller.com/content/dam/hermanmiller/page_assets/products/Eames_Lounge_Chair_and_Ottoman/hero_eames_lounge_4.jpg" alt="Mimic Image" />
+      </div>
+      
+      <div class="photo">
+        <img src="http://s7.jcrew.com/is/image/jcrew/24801_WE9866_m?$pdp_fs418$" alt="Mimic Image" />
+      </div>
+
+      <div class="photo test2">
+        <img src="http://images.urbanoutfitters.com/is/image/UrbanOutfitters/29024338_060_b?$detailMain$" alt="Mimic Image" />
+      </div>
+
+      <div class="photo">
+        <img src="http://2.bp.blogspot.com/-GUGnqobqUgQ/T3ydAQEjPnI/AAAAAAAAAo4/qTexB9yh3rY/s1600/insoutdoor+flower+pot.jpg" alt="Mimic Image" />
+      </div>
+
+      <div class="photo">
+        <img src="http://www.motiqonline.com/wp-content/uploads/2011/11/Urban-Sofa-Furniture.jpg" alt="Mimic Image" />
+      </div>
+
+      <div class="photo">
+        <img src="https://lh6.googleusercontent.com/-gDqaggakp8o/UCV1wVc7zFI/AAAAAAAADnA/2z7Huel_z3c/s0/aug2012_toryburchnadine6.jpg" alt="Mimic Image" />
+      </div>
+
+      <div class="photo">
+        <img src="http://www.remodelista.com/files/img/sub/half-and-half-lampbase.jpg" alt="Mimic Image" />
+      </div>
+
+      
+
+      
+
+    
+  </div> <!-- #container -->
+
+
+
+    <div class="md-modal md-effect-12" id="modal-12">
+      <div class="md-content">
+        <h3>Modal Dialog</h3>
+        <ul id="filters">
+          <li><a href="#" data-filter="*">Show All</a></li>
+          <li><a href="#" data-filter=".test">Women</a></li>
+          <li><a href="#" data-filter=".test2">Men</a></li>
+          <li><a href="#" data-filter=".none">Children/Babies</a></li>
+          <li><a href="#" data-filter=".none">Home/Living</a></li>
+          <li><a href="#" data-filter=".none">Technology</a></li>
+          <li><a href="#" data-filter=".none">Art/Music</a></li>
+          <li><a href="#" data-filter=".none">Travel</a></li>
+          <li><a href="#" data-filter=".none">Accessories</a></li>
+          <li><a href="#" data-filter=".none">Gifts</a></li>
+          <li><a href="#" data-filter=".none">DIY</a></li>
+        </ul>
+        <div>
+          <button class="md-close">Close me!</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="md-overlay"></div><!-- the overlay element -->
+
+    <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+    <script src="js/classie.js"></script>
+    <script src="js/modalEffects.js"></script>
+
+    <!-- for the blur effect -->
+    <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+    <script>
+      // this is important for IEs
+      var polyfilter_scriptpath = '/js/';
+    </script>
+    <script src="js/cssParser.js"></script>
+    <script src="js/css-filters-polyfill.js"></script>
+
+
+
+  
+  <script src="http://isotope.metafizzy.co/js/jquery-1.7.1.min.js"></script>
+  <script src="bower_components/jquery/jquery.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/app.js"></script>
+  <script src="http://isotope.metafizzy.co/jquery.isotope.min.js"></script>
+  <script>
+     $.Isotope.prototype._getCenteredMasonryColumns = function() {
+    this.width = this.element.width();
+    
+    var parentWidth = this.element.parent().width();
+    
+                  // i.e. options.masonry && options.masonry.columnWidth
+    var colW = this.options.masonry && this.options.masonry.columnWidth ||
+                  // or use the size of the first item
+                  this.$filteredAtoms.outerWidth(true) ||
+                  // if there's no items, use size of container
+                  parentWidth;
+    
+    var cols = Math.floor( parentWidth / colW );
+    cols = Math.max( cols, 1 );
+
+    // i.e. this.masonry.cols = ....
+    this.masonry.cols = cols;
+    // i.e. this.masonry.columnWidth = ...
+    this.masonry.columnWidth = colW;
+  };
+  
+  $.Isotope.prototype._masonryReset = function() {
+    // layout-specific props
+    this.masonry = {};
+    // FIXME shouldn't have to call this again
+    this._getCenteredMasonryColumns();
+    var i = this.masonry.cols;
+    this.masonry.colYs = [];
+    while (i--) {
+      this.masonry.colYs.push( 0 );
+    }
+  };
+
+  $.Isotope.prototype._masonryResizeChanged = function() {
+    var prevColCount = this.masonry.cols;
+    // get updated colCount
+    this._getCenteredMasonryColumns();
+    return ( this.masonry.cols !== prevColCount );
+  };
+  
+  $.Isotope.prototype._masonryGetContainerSize = function() {
+    var unusedCols = 0,
+        i = this.masonry.cols;
+    // count unused columns
+    while ( --i ) {
+      if ( this.masonry.colYs[i] !== 0 ) {
+        break;
+      }
+      unusedCols++;
+    }
+    
+    return {
+          height : Math.max.apply( Math, this.masonry.colYs ),
+          // fit container to columns that have been used;
+          width : (this.masonry.cols - unusedCols) * this.masonry.columnWidth
+        };
+  };
+
+
+
+    $(function(){
+
+      var $container = $('#container');
+    
+      $container.imagesLoaded( function(){
+        $container.isotope({
+          itemSelector : '.photo'
+        });
+      });
+
+      // filter items when filter link is clicked
+$('#filters a').click(function(){
+  var selector = $(this).attr('data-filter');
+  $container.isotope({ filter: selector });
+  return false;
+});
+    
+    
+    });
+  </script>
+
+        <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+    <script src="js/classie.js"></script>
+    <script src="js/modalEffects.js"></script>
+
+    <!-- for the blur effect -->
+    <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+    <script>
+      // this is important for IEs
+      var polyfilter_scriptpath = '/js/';
+    </script>
+    <script src="js/cssParser.js"></script>
+    <script src="js/css-filters-polyfill.js"></script>
+
+    
+  </section> <!-- #content -->
+
+
+
+</body>
+</html>
